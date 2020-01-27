@@ -11,8 +11,8 @@ class MakeMePassTest extends TestCase
 {
     public function test_Rules_hasBeenRead()
     {
-        $isRead = include './../Challenge.php';
-
+        $isRead = include './../../Challenge.php';
+        
         /** @noinspection PhpUnhandledExceptionInspection */
         self::assertTrue($isRead);
     }
